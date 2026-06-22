@@ -1,0 +1,20 @@
+{
+  "name": "scheduler-export-excel",
+  "version": "1.0.0",
+  "description": "Automated scheduler to login, select all, export Excel from EVO Payment portal and zip the result",
+  "main": "scheduler.js",
+  "scripts": {
+    "start": "node scheduler.js",
+    "now": "node scheduler.js --now",
+    "test": "node scheduler.js --now"
+  },
+  "keywords": ["puppeteer", "automation", "scheduler", "excel", "export"],
+  "author": "Vietxiong",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "puppeteer-core": "^22.15.0"
+  }
+}

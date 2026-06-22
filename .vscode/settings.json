@@ -1,0 +1,40 @@
+{
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "LOGIN_URL",
+      "value": "https://bkk-portal.everonet.com/passport/login"
+    },
+    {
+      "environmentVariable": "PASSWORD",
+      "value": "vATMCIL@2027"
+    },
+    {
+      "environmentVariable": "TRADE_LIST_URL",
+      "value": "https://bkk-portal.everonet.com/trades/trade/list"
+    },
+    {
+      "environmentVariable": "DOWNLOAD_DIR",
+      "value": "/var/www/html/V-DEV/scheduler-export-excel/downloads"
+    },
+    {
+      "environmentVariable": "CHROME_PATH",
+      "value": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "environmentVariable": "PORTAL_USERNAME",
+      "value": "Vietxiong"
+    },
+    {
+      "environmentVariable": "DB_USER",
+      "value": "atmbk"
+    },
+    {
+      "environmentVariable": "DB_PASSWORD",
+      "value": "atmbk12123"
+    },
+    {
+      "environmentVariable": "DB_CONNECT_STRING",
+      "value": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.154.46.26)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ATMRPT)))"
+    }
+  ]
+}
