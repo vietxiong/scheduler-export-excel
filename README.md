@@ -88,7 +88,7 @@ npm start
   https://github.com/vietxiong/scheduler-export-excel.git
 
 …or create a new repository on the command line
-echo "# daily-scheduler-saas-txn" >> README.md
+echo "# scheduler-export-excel" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
